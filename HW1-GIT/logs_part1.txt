@@ -1,0 +1,11 @@
+44604bc (HEAD -> develop, feature4, HW1-Git) HEAD@{0}: checkout: moving from HW1-Git to develop
+44604bc (HEAD -> develop, feature4, HW1-Git) HEAD@{1}: merge develop: Fast-forward
+5249084 (feature2, feature1) HEAD@{2}: checkout: moving from develop to HW1-Git
+44604bc (HEAD -> develop, feature4, HW1-Git) HEAD@{3}: merge feature4: Fast-forward
+858dd85 (feature3) HEAD@{4}: checkout: moving from feature4 to develop
+44604bc (HEAD -> develop, feature4, HW1-Git) HEAD@{5}: rebase (finish): returning to refs/heads/feature4
+44604bc (HEAD -> develop, feature4, HW1-Git) HEAD@{6}: rebase (pick): HW01:add new style to index.html
+f112a2a HEAD@{7}: rebase (pick): HW01:add new style to folder Styles2
+858dd85 (feature3) HEAD@{8}: rebase (start): checkout develop
+ad8e126 HEAD@{9}: checkout: moving from develop to feature4
+858dd85 (feature3) HEAD@{10}: merge feature3: Fast-forward
