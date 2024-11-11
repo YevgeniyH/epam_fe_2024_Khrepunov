@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div>
+        <center>
+            <h1>Registration</h1>
+            <iframe width="600" height="600" frameborder="0" srcdoc='
+            <form name="Registration">
+                <fieldset>
+                    <legend>Regestration</legend>
+                    <table>
+                        <tr>
+                            <td width="130"><b>Common:</b></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="name">Name</label></td>
+                            <td><input type="text" name="name" id="name" placeholder="John" required size="30"></td>
+                            <td><em>*Field is required</em></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="surname">Surname</label></td>
+                            <td><input type="text" name="surname" id="surname" placeholder="Doe" required size="30"></td>
+                            <td><em>*Field is required</em></td> 
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="gender">Gender</label></td>
+                            <td><input type="radio" name="gender" id="gender" value="male">Male
+                                <input type="radio" name="gender" id="gender" value="female">Female
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="date_of_birth">Date of birth</label></td>
+                            <td><input type="text" name="date_of_birth" id="date_of_birth" placeholder="дд.мм.рррр" size="30"></td>
+                            <td><em>*01/01/1990</em></td>
+                        </tr>
+                            <tr><td colspan="3"><hr></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><b>Address:</b></td>
+                            <td></td>
+                            <td></td>  
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="country">Country</label></td>
+                            <td><select name="country" id="country">
+                                <option value="value1" selected disabled>Select</option>
+                                <option value="brazil">The Federative Republic of Brazil</option>                 
+                            </select>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><hr></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><b>Other:</b></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="color">Favourite color</label></td>
+                            <td colspan="2"><input type="color" name="color" id="color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="avatar">Upload avatar</label></td>
+                            <td><input type="file" name="avatar" id="avatar"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><hr></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><b>Security</b></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="pasword">Password</label></td>
+                            <td><input type="password" name="password" id="password" placeholder="Your password" required size="30"></td>
+                            <td><em>*Field is required</em></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="repeat_pasword">Repeat password</label></td>
+                            <td><input type="password" name="repeat_password" id="repeat_password" required size="30"></td>
+                            <td><em></em></td>
+                        </tr>
+                        <tr>
+                            <td width="130"><label for="email">Email</label></td>
+                            <td><input type="email" name="email" id="email required" placeholder="john_doe@gmail.com" size="30"></td>
+                            <td><em>*Field is required</em></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><hr></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="checkbox" name="agreement" id="subscribe" value="agree">
+                            <label for="subscribe">I agree the Terms and conditions</label></td>
+                            <td><input type="submit" value="Register"></td>
+                        </tr>                        
+                </table>
+                </fieldset>
+            </form>
+            ' >
+            </iframe>
+        </center>
+    </div>
+    
+</body>
+</html>
