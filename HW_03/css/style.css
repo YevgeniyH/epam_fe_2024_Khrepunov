@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-picture {
+    position: relative;
+    margin: 0 auto;
+    width:  100%;
+    height: 600px;
+}
+
+.grass {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(3, 146, 3);
+}
+
+.grass_position {
+    position: relative;
+    top: calc(100% - 400px);
+    z-index: -1;
+}
+
+.house {
+    width: 320px;
+    height: 240px;
+    background-color: rgb(192, 118, 130);
+}
+
+.house_position {
+    position: relative;
+    margin: 0 auto;
+    top: calc(100% - 320px);
+}
+
+.roof {
+    width: 0px;
+    height: 0px;
+    border-left: 160px solid transparent;
+    border-right: 320px solid transparent;
+    border-bottom: 140px solid rgb(47, 131, 187)
+}
+
+.roof_position {
+    position: relative;
+    margin: 0 auto;
+    bottom: calc(100% - 100px);
+    right: 40px;
+}
+
+.chimney {
+    width: 40px;
+    height: 60px;
+    background-color: rgb(131, 61, 72);
+}
+
+.chimney_position {
+    position: relative;
+    left: 130px;
+    top: 20px;
+    z-index: -1;
+}
+
+.window {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 0);
+    border: 8px solid rgb(0, 0, 0);
+}
+
+.window::before {
+    content: '';
+    width: 80px;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: calc(50% - 4px);
+    display: block;
+}
+
+.window::after {
+    content: '';
+    width: 8px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left: calc(50% - 4px);
+    bottom: 8px;
+    display: block;
+}
+
+.window_position {
+    position: relative;
+    bottom: calc(50% - 40px);
+    left: 40px;
+}
+
+.door {
+    width: 60px;
+    height: 120px;
+    background-color: rgb(131, 61, 72);
+}
+
+.door_position {
+    position: relative;
+    left: calc(100% - 60px);
+    bottom: 116px;
+}
+
+.door-handle {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(192, 192, 120);
+    border-radius: 50%;
+}
+
+.door-handle_position {
+    position: relative;
+    top: calc(50% - 14px);
+    left: 44px;
+}
+
